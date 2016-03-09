@@ -59,7 +59,7 @@
     [self.delegate itemDetailViewControllerDidCancel:self];
 }
 
-- (IBAction)done:(id)sender {
+- (IBAction)done:(id)sender { 
     
     if(self.itemToEdit == nil){
         ChecklistItem *item = [[ChecklistItem alloc]init];
